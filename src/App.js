@@ -1,24 +1,27 @@
-import Footer from './Components/Footer'
+import Contact from './Components/Contact'
 import React from 'react'
-import Header from "./Components/Header";
-import Designs from "./Components/Designs";
+import Projects from './Components/Projects';
+import Resume from './Components/Resume';
+import Footer from './Components/Footer';
+import Contact from './Components/Contact';
+import About from "./Components/About";
 import { Routes, Route } from 'react-router-dom'
 import './App.css';
 
 export default function App() {
   return (
-    <>
-    
-      <div className='App'>
- <Header/>
-<Routes>
-<Route path="/" element={<Designs />}></Route>
+    <main>
 
-</Routes>
-<Footer/>
-   
-    </div>
-</>
+          <Navbar />
+          <About />
+          <Projects />
+          <Resume />
+          <Contact />
+          <Footer />
+
     
-  )
+      
+    </main>
+    
+  );
   }

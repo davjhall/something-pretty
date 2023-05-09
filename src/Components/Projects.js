@@ -1,7 +1,9 @@
 import React from "react"
 
 
-export  default function Footer() {
+
+
+export  default function Projects() {
     return (
         <div >
     
@@ -9,3 +11,4 @@ export  default function Footer() {
         </div>
     );
 }
+

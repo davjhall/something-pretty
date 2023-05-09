@@ -3,7 +3,7 @@ import React from "react"
 
 
 
-export  default function Designs() {
+export  default function About() {
     return (
         <div >
     
@@ -11,4 +11,3 @@ export  default function Designs() {
         </div>
     );
 }
-
