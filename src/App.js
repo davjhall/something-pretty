@@ -1,4 +1,4 @@
-import Contact from './Components/Contact'
+import Navbar from './Components/Navbar';
 import React from 'react'
 import Projects from './Components/Projects';
 import Resume from './Components/Resume';
