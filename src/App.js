@@ -16,7 +16,7 @@ export default function App() {
 
 </Routes>
 <Footer/>
-    <div>A Project made with effort and dedication</div>
+   
     </div>
 </>
     
