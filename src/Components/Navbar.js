@@ -20,7 +20,11 @@ export default function Navbar() {
     <>
       <MDBNavbar expand='lg' dark bgColor='primary'>
         <MDBContainer fluid>
-          <MDBNavbarBrand href='#'>David Hall</MDBNavbarBrand>
+        <div className="avatar">
+  <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+    <img src="" />
+  </div>
+</div>
           <MDBNavbarToggler
             type='button'
             data-target='#navbarColor02'
