@@ -1,13 +1,8 @@
 import React from "react";
-
+import logo from "./ResumeNew.png"
 
 
 
 export  default function Resume() {
-    return (
-        <div >
-    
-            Resume
-        </div>
-    );
+    return <img src={logo} alt="Logo" />;
 }

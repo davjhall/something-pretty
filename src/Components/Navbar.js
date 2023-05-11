@@ -21,10 +21,10 @@ export default function Navbar() {
       <MDBNavbar expand='lg' dark bgColor='primary'>
         <MDBContainer fluid>
         <div className="avatar">
-  <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-    <img src="" />
-  </div>
-</div>
+          <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            <img src="public\fireMe.jpg" />
+          </div>
+        </div>
           <MDBNavbarToggler
             type='button'
             data-target='#navbarColor02'
