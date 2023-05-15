@@ -10,6 +10,8 @@ import {
   MDBNavbarBrand,
   MDBCollapse
 } from 'mdb-react-ui-kit';
+import mee from "./fireMe.jpg"
+
 
 export default function Navbar() {
   const [showNavColor, setShowNavColor] = useState(false);
@@ -22,7 +24,7 @@ export default function Navbar() {
         <MDBContainer fluid>
         <div className="avatar">
           <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-            <img src="public\fireMe.jpg" />
+          <img src={mee} alt="meee" />
           </div>
         </div>
           <MDBNavbarToggler

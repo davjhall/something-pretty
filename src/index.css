@@ -9,6 +9,9 @@ body {
 }
 
 
-.dhall { vertical-align: middle;
+.dhall { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
