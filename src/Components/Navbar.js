@@ -24,7 +24,7 @@ export default function Navbar() {
       <MDBNavbar expand='lg' dark bgColor='dark'>
         <MDBContainer fluid>
         <div className="avatar">
-          <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+          <div className="w-24 rounded-full  ring-offset-2">
           <img src={mee} alt="meee" />
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Navbar() {
 
               <MDBNavbarItem className='active'>
                 <MDBNavbarLink aria-current='page' href='#'>
-                  Home
+                  David Hall
                 </MDBNavbarLink>
               </MDBNavbarItem>
 

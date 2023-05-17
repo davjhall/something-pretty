@@ -14,7 +14,7 @@ export default function Para() {
         speed: -15,
         children: (
           <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-8xl text-white font-thin">David Hall</h1>
+            <h1 className="text-8xl text-white font-thin">David Hall, Software Developer</h1>
           </div>
         ),
       },
@@ -28,4 +28,9 @@ export default function Para() {
 } 
 
 // see about making the whole background one
+// zoom out starry sky bg
+// link the nav buttons to parts of the page
+// Animation to the D Hall Dev words possibly
+// would love some spinning/animated links to other projects
+// resume pic infront of a background that you can still click on
 // and dont forget to check out other sites on phone
