@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <>
-      <MDBNavbar expand='lg' dark bgColor='primary'>
+      <MDBNavbar expand='lg' dark bgColor='dark'>
         <MDBContainer fluid>
         <div className="avatar">
           <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -57,7 +57,7 @@ export default function Navbar() {
               <MDBNavbarItem>
                 <MDBNavbarLink href='#'>Resume</MDBNavbarLink>
               </MDBNavbarItem>
-
+              
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
@@ -69,8 +69,8 @@ export default function Navbar() {
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
-              <h1 className='mb-3'>Heading</h1>
-              <h4 className='mb-3'>Subheading</h4>
+              <h1 className='mb-3'>David Hall</h1>
+              <p className='mb-3'>"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie</p>
               <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
                 Call to action
               </a>
