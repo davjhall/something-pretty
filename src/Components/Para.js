@@ -1,14 +1,15 @@
-import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
-import { Parallax } from 'react-scroll-parallax';
+import { ParallaxBanner,} from 'react-scroll-parallax';
+import { ParallaxProvider,} from 'react-scroll-parallax';
 import React from 'react';
+import starrey from "./images/starrysea.jpg"
 
 export default function Para() {
   return (
    
-    
+    <ParallaxProvider>
     <ParallaxBanner
     layers={[
-      { image: '/static/banner-background.jpg', speed: -20 },
+      { image: starrey, speed: -20 },
       {
         speed: -15,
         children: (
@@ -21,7 +22,7 @@ export default function Para() {
     ]}
     className="aspect-[2/1]"
   />
-
+</ParallaxProvider>
 
 );
 } 

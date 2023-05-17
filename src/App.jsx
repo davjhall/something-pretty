@@ -9,12 +9,18 @@ import About from "./Components/About";
 import { Routes, Route } from 'react-router-dom'
 import './App.css';
 import { useParallax } from "react-scroll-parallax";
-import { Parallax, ParallaxLayer } from 'react-scroll-parallax';
+import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
+// import { Parallax, ParallaxLayer, ParallaxProvider } from 'react-scroll-parallax';
+
 
 export default function App() {
   return (
-    <main>
-        
+    
+   
+       
+
+
+          <main>
           <Navbar />
           <Para />
           <About />
@@ -22,10 +28,12 @@ export default function App() {
           <Resume />
           <Contact />
           <Footer />
+           </main>
+          
 
     
-      
-    </main>
+       );
+};
+   
     
-  );
-  }
+ 
