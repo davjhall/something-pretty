@@ -10,7 +10,8 @@ import {
   MDBNavbarBrand,
   MDBCollapse
 } from 'mdb-react-ui-kit';
-import mee from "./fireMe.jpg"
+import mee from "./fireMe.jpg";
+
 
 
 export default function Navbar() {
@@ -47,22 +48,22 @@ export default function Navbar() {
               </MDBNavbarItem>
 
               <MDBNavbarItem>
-                <MDBNavbarLink href='#'>About Me</MDBNavbarLink>
+                <MDBNavbarLink href='#AboutMe'>About Me</MDBNavbarLink>
               </MDBNavbarItem>
 
               <MDBNavbarItem>
-                <MDBNavbarLink href='#'>My Projects</MDBNavbarLink>
+                <MDBNavbarLink href='#MyProjects'>My Projects</MDBNavbarLink>
               </MDBNavbarItem>
 
               <MDBNavbarItem>
-                <MDBNavbarLink href='#'>Resume</MDBNavbarLink>
+                <MDBNavbarLink href='#Resume'>Resume</MDBNavbarLink>
               </MDBNavbarItem>
               
             </MDBNavbarNav>
           </MDBCollapse>
         </MDBContainer>
       </MDBNavbar>
-      <div
+      {/* <div
         className='p-5 text-center bg-image'
         style={{ backgroundImage: "url('https://mdbootstrap.com/img/new/slides/041.webp')", height: 400 }}
       >
@@ -71,13 +72,13 @@ export default function Navbar() {
             <div className='text-white'>
               <h1 className='mb-3'>David Hall</h1>
               <p className='mb-3'>"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie</p>
-              <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
-                Call to action
-              </a>
+              
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+      
       </>
       );
 }
